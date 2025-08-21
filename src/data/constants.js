@@ -231,6 +231,19 @@ export const education = [
 ];
 
 export const projects = [
+    {
+    id: 4,
+    title: "A Comprehensive Approach to Secure, Accessible, and Engaging Voting Systems",
+    //date: "Jul 2021",
+    description:
+      "A comprehensive approach was implemented to create secure, accessible, and engaging voting systems using technologies such as blockchain, face recognition, sentiment analysis, a multi-digit identification model, React, and AI. Blockchain and homomorphic encryption were integrated to ensure secure and private vote handling, while AI-based facial recognition and fraud detection enhanced overall security. An accessible user interface was developed with voice support and multi-digit authentication, making the system user-friendly. Additionally, sentiment analysis on social media was applied to increase engagement and build trust in the voting process.",
+    image:
+    require("../images/vote.jpg"),
+    tags: ["Blockchain", "Face Recognition", "Sentiment Analysis", "Multi-Digit Identification Mode", "React" , "AI"],
+    categories: ["machine learning", "web app"],
+    github: "",
+    //webapp: "https://whatsapp-clone-rishav.web.app",
+  },
   {
     id: 9,
     title: "Real Time Code Connect Classroom",
@@ -248,7 +261,7 @@ export const projects = [
       "Nodejs",
       "Socket.IO",
     ],
-    category: "web app",
+    categories: ["web app"],
     github: "https://github.com/IT21252990/CCC",
     //webapp: "https://trackify.duckdns.org",
   },
@@ -261,7 +274,7 @@ export const projects = [
     image:
     require("../images/lake.png"),
     tags: ["HTML", "Bootstrap CSS", "Java, ReactJs", "MySQL"],
-    category: "web app",
+    categories: ["web app"],
     github: "https://github.com/it21296796/LakeSide-Hotel-Frontend.git",
     //webapp: "https://podstream.netlify.app/",
     
@@ -282,7 +295,7 @@ export const projects = [
       "ReactJs",
       "Nodejs",
     ],
-    category: "web app",
+    categories: ["web app"],
     github: "https://github.com/AchinthaDavidson/Restaurant-Management-System.git",
     //webapp: "https://vexa-app.netlify.app/",
   },
@@ -295,7 +308,7 @@ export const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHgcDwhniHfrwEcLjvS1rEd-nsbYOtGv1nXncGYacTP3KvmF9MmoEJicLJo6F-CV-tIGk&usqp=CAU",
     tags: ["HTML" ,  "CSS", "MongoDB", "ExpressJs", "ReactJs", "Nodejs"],
-    category: "android app",
+    categories: ["android app" , "web app"],
     github: "https://github.com/IT21252990/CSSE_Ticketing_System.git",
     //webapp: "https://brain-tumor.netlify.app/",
     
@@ -309,7 +322,7 @@ export const projects = [
     image:
     require("../images/pet.jpg"),
     tags: ["HTML", "CSS", "Firebase" , "ExpressJs" , "ReactJs" , "Nodejs"],
-    category: "android app",
+    categories: ["android app"],
     github: " https://github.com/IT21252990/PawfectCare",
     //webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
@@ -322,22 +335,10 @@ export const projects = [
     image:
       "https://media.licdn.com/dms/image/D4E12AQGzifs_tmqlJw/article-cover_image-shrink_600_2000/0/1686312494991?e=2147483647&v=beta&t=IpGPDXiPp-STILfq-av3Q_KyYRCnFyYVU9BdD_ffln0",
     tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/IT21209352/MAADPROJECT",
+    categories: ["android app"],
+    github: "https://github.com/XYWINGS/MAADPROJECT.git",
   },
-  {
-    id: 4,
-    title: "Online Musical Instruments, Accessories and Equipmentʼs Store",
-    //date: "Jul 2021",
-    description:
-      "Experience the world of music with our Online Musical Instruments, Accessories, and Equipment Store. Our website, meticulously crafted using HTML, CSS, JavaScript, PHP, and MySQL, offers a seamless shopping experience for music enthusiasts. Browse through a diverse range of instruments and accessories, make secure transactions, and elevate your musical journey with ease.",
-    image:
-    require("../images/music.png"),
-    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    category: "web app",
-    github: "",
-    //webapp: "https://whatsapp-clone-rishav.web.app",
-  },
+
   
 ];
 
