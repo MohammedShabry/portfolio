@@ -188,7 +188,7 @@ export const experiences = [
     img: require("../images/knight_owl.jpg"),
     role: "Full Stack Developer Intern",
     company: "Knight Owl",
-    date: "Aug 2024 - aug 2025",
+    date: "Aug 2024 - Aug 2025",
     desc: "Developed full-stack web applications, built scalable backends, implemented interactive visuals, and collaborated in Agile teams.",
     skills: [
       "React",
